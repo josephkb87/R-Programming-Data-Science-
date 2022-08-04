@@ -1,0 +1,949 @@
+1
+
+00:00:00,330  -->  00:00:05,460
+Welcome back to the advanced course on Tablo and the previous tutorial we created these a beautiful
+
+2
+
+00:00:05,460  -->  00:00:06,930
+four box plots.
+
+3
+
+00:00:06,930  -->  00:00:10,470
+And today we're going to learn how to analyze them.
+
+4
+
+00:00:10,470  -->  00:00:14,360
+We've got quite a lot of ground to cover so let's jump straight into it.
+
+5
+
+00:00:14,370  -->  00:00:21,780
+First off I'd like to make sure that everybody is on the same page and therefore let's look at how exactly
+
+6
+
+00:00:21,840  -->  00:00:23,780
+box plots work.
+
+7
+
+00:00:23,820  -->  00:00:28,290
+So I'm going to bring up a slide that I've prepared very excited about this.
+
+8
+
+00:00:28,290  -->  00:00:28,680
+All right.
+
+9
+
+00:00:28,680  -->  00:00:33,960
+So let's say you have an access as it can be vertical horizontal in all cases vertical so let's stick
+
+10
+
+00:00:33,960  -->  00:00:39,540
+with that and you have a certain number of observations that you can plot on this axis.
+
+11
+
+00:00:39,570  -->  00:00:41,630
+So there are 10 observations.
+
+12
+
+00:00:41,820  -->  00:00:46,470
+Now in order to create an a box plot which you have to do is you have to physically count the number
+
+13
+
+00:00:46,470  -->  00:00:51,970
+of observations of one two three up to 10 and then take the middle between them.
+
+14
+
+00:00:52,020  -->  00:00:58,030
+So in our case there's an even number of observations so there is no one middle observation.
+
+15
+
+00:00:58,080  -->  00:00:59,630
+The middle ones are 5 and six.
+
+16
+
+00:00:59,670  -->  00:01:05,810
+So we are going to put a line exactly between Fifth the fifth and the sixth observation.
+
+17
+
+00:01:05,820  -->  00:01:11,900
+Now what are we going to do is we're going to do the same thing for the top five here.
+
+18
+
+00:01:11,910  -->  00:01:12,720
+We've counted.
+
+19
+
+00:01:12,780  -->  00:01:14,040
+We have five observations.
+
+20
+
+00:01:14,040  -->  00:01:15,870
+The middle one is number three.
+
+21
+
+00:01:15,900  -->  00:01:17,770
+We put a line through that one.
+
+22
+
+00:01:17,770  -->  00:01:20,360
+Now those are the exact same thing for the bottom half.
+
+23
+
+00:01:20,360  -->  00:01:21,540
+One two three for five.
+
+24
+
+00:01:21,540  -->  00:01:23,480
+This is the middle one over here.
+
+25
+
+00:01:23,520  -->  00:01:24,790
+So we put a line through it.
+
+26
+
+00:01:24,810  -->  00:01:31,310
+Now if we replace these lines with a box we are slowly starting to create a box plot.
+
+27
+
+00:01:31,320  -->  00:01:37,350
+Now all we have to do is plot the whiskers so the whisker goes all the way up to the top one over here
+
+28
+
+00:01:37,410  -->  00:01:43,200
+and the other whisker goes all the way up to the bottom one here and elements of the book's plot have
+
+29
+
+00:01:43,290  -->  00:01:44,250
+their own names.
+
+30
+
+00:01:44,250  -->  00:01:45,360
+This is the minimum.
+
+31
+
+00:01:45,450  -->  00:01:48,710
+This is the first quartile or the lower quartile.
+
+32
+
+00:01:48,720  -->  00:01:50,120
+This is the median.
+
+33
+
+00:01:50,160  -->  00:01:52,950
+This is the upper quartile of the third quarter.
+
+34
+
+00:01:52,980  -->  00:01:54,680
+And this is the maximum.
+
+35
+
+00:01:54,960  -->  00:01:56,910
+And just make sure you don't get confused here.
+
+36
+
+00:01:56,910  -->  00:02:01,960
+This is not the mean this is the median and that's because of the way we've constructed it.
+
+37
+
+00:02:02,100  -->  00:02:05,820
+So that is how a box plot gets built.
+
+38
+
+00:02:05,820  -->  00:02:12,540
+So basically it's about counting the number of records and breaking it up into four Court-House So every
+
+39
+
+00:02:12,540  -->  00:02:16,830
+single Courtown has an equal number of records in it.
+
+40
+
+00:02:16,830  -->  00:02:20,260
+Now let's look at another example here again another axis.
+
+41
+
+00:02:20,310  -->  00:02:24,090
+We've got our observations and let's do the same thing.
+
+42
+
+00:02:24,090  -->  00:02:28,170
+So that's our median that is going to be our first quartile.
+
+43
+
+00:02:28,260  -->  00:02:30,620
+That is our third quartile.
+
+44
+
+00:02:30,630  -->  00:02:32,640
+Now if we connect them that's our box.
+
+45
+
+00:02:32,930  -->  00:02:38,730
+And now what we can do here is if we measure the distance between the third quarter and the first quarter
+
+46
+
+00:02:38,740  -->  00:02:40,930
+it is called the entire quartal range.
+
+47
+
+00:02:41,070  -->  00:02:47,040
+Well the way we can sort box plots is we want to make sure that our analysis is not affected by outliers
+
+48
+
+00:02:47,060  -->  00:02:47,100
+.
+
+49
+
+00:02:47,130  -->  00:02:53,290
+So if any observation falls too far away then we want to exclude it from the construction of boxwood
+
+50
+
+00:02:53,360  -->  00:02:53,640
+.
+
+51
+
+00:02:53,730  -->  00:02:56,330
+And how do we determine if an observation is too far away.
+
+52
+
+00:02:56,370  -->  00:03:01,190
+Well you need to take one and a half times the entire quarter mile range.
+
+53
+
+00:03:01,410  -->  00:03:03,300
+And that is going to be a cutoff point.
+
+54
+
+00:03:03,300  -->  00:03:08,350
+So if an observation falls further than that then you shouldn't include it in the box.
+
+55
+
+00:03:08,400  -->  00:03:10,400
+And it's considered an outlier.
+
+56
+
+00:03:10,560  -->  00:03:16,270
+So in this case our box flight is going to look like this and that Separ or out there is considered
+
+57
+
+00:03:16,270  -->  00:03:17,580
+to be an outlier.
+
+58
+
+00:03:17,590  -->  00:03:20,040
+All right so that's how books plus are constructed.
+
+59
+
+00:03:20,050  -->  00:03:24,550
+Now let's have a look at a few sample use cases of box plots.
+
+60
+
+00:03:24,580  -->  00:03:29,440
+So here I've got a horizontal axis and for a change we're going to be looking at horizontal box plots
+
+61
+
+00:03:29,830  -->  00:03:36,430
+and to make things interesting let's say we're analyzing sales representatives and their daily sales
+
+62
+
+00:03:36,430  -->  00:03:36,640
+.
+
+63
+
+00:03:36,640  -->  00:03:42,280
+So what would you rather would you rather have your observations plotted like this or would you rather
+
+64
+
+00:03:42,280  -->  00:03:44,200
+have your observations planned like this.
+
+65
+
+00:03:44,350  -->  00:03:46,660
+In both cases the median is the same.
+
+66
+
+00:03:46,660  -->  00:03:48,700
+It is a thousand dollars.
+
+67
+
+00:03:48,700  -->  00:03:55,420
+Now this is where we can look at the book's plot and if we create the box put for the first example
+
+68
+
+00:03:55,450  -->  00:03:57,920
+you will see that it is quite compact like that.
+
+69
+
+00:03:57,940  -->  00:04:02,570
+The second box plot is much more wider.
+
+70
+
+00:04:02,590  -->  00:04:10,150
+So what does that tell us that tells us that the variance in the first box plot is lower so you have
+
+71
+
+00:04:10,330  -->  00:04:13,050
+more chances of being closer to the median.
+
+72
+
+00:04:13,060  -->  00:04:18,340
+You can only from the observation that we have you are only going to be somewhere between these two
+
+73
+
+00:04:18,340  -->  00:04:24,970
+whiskers and more likely you're actually going to be inside the second and third quarter owls groups
+
+74
+
+00:04:25,870  -->  00:04:28,940
+and therefore you're more likely to be next to the median here.
+
+75
+
+00:04:29,050  -->  00:04:35,650
+You have more room to go up what you have more room to go down so that basically means that the risk
+
+76
+
+00:04:35,650  -->  00:04:41,370
+is higher or the volatility is higher and your sales reps can bring.
+
+77
+
+00:04:41,380  -->  00:04:48,700
+They do bring a median back over a thousand dollars per day but at the same time it can it can really
+
+78
+
+00:04:48,700  -->  00:04:55,330
+vary it can be anywhere on the right and you're on the left so you have more certainty from more compact
+
+79
+
+00:04:55,330  -->  00:04:59,770
+box what you have less certainty with a wider box.
+
+80
+
+00:04:59,980  -->  00:05:06,940
+Even given the same media and the way to think about it or another way to think about it is in terms
+
+81
+
+00:05:06,940  -->  00:05:13,330
+of distribution so this distribution is narrower this distribution is wider so if we talk in terms of
+
+82
+
+00:05:13,330  -->  00:05:18,450
+standard deviations instantiation is here is which is also a measure of variance.
+
+83
+
+00:05:18,460  -->  00:05:18,820
+Right.
+
+84
+
+00:05:18,850  -->  00:05:25,930
+So here the standard deviation is higher or larger here it's smaller so you have a more narrow distribution
+
+85
+
+00:05:25,930  -->  00:05:29,280
+and you're more likely to actually hit the nail on the head here.
+
+86
+
+00:05:29,770  -->  00:05:33,340
+Whereas here you can either go left or right which is more uncertain.
+
+87
+
+00:05:33,650  -->  00:05:35,790
+OK let's have a look at another example.
+
+88
+
+00:05:36,370  -->  00:05:38,410
+Can you tell me right away what do you think.
+
+89
+
+00:05:38,410  -->  00:05:41,220
+Is this a good box or a bad box point.
+
+90
+
+00:05:41,470  -->  00:05:47,380
+Let's say we're also measuring sales and now it's a vertical axis and of course would be better if it
+
+91
+
+00:05:47,380  -->  00:05:52,400
+were compacter like this but is this a good box or a bad spot.
+
+92
+
+00:05:52,420  -->  00:06:00,190
+And given that the minimum or the maximum are fixed and in essence the question we're asking is is this
+
+93
+
+00:06:00,190  -->  00:06:02,420
+box a lot better than this box plot.
+
+94
+
+00:06:02,710  -->  00:06:08,080
+And if you think of it in terms of median the median here is higher than the median here and it makes
+
+95
+
+00:06:08,080  -->  00:06:09,190
+the answer obvious of course.
+
+96
+
+00:06:09,190  -->  00:06:12,160
+This box Plaut is preferrable to this box.
+
+97
+
+00:06:12,160  -->  00:06:18,030
+So basically if if your media minimum and maximum fixed you want your box the pot or the box part of
+
+98
+
+00:06:18,030  -->  00:06:28,020
+the box what you want it to be as a higher or as closer as more closer to your desired result as possible
+
+99
+
+00:06:28,030  -->  00:06:32,560
+so here we're talking about sales so the larger sales or higher sales are better.
+
+100
+
+00:06:32,560  -->  00:06:35,340
+So we want the box to be higher not lower.
+
+101
+
+00:06:35,530  -->  00:06:37,720
+But that is the obvious answer.
+
+102
+
+00:06:37,720  -->  00:06:44,500
+How do how do we think of it in terms of distributions and how do we think of it exactly why this is
+
+103
+
+00:06:44,500  -->  00:06:48,300
+the case so if we plot them now sideways so this is the good box plot.
+
+104
+
+00:06:48,310  -->  00:06:55,870
+This is the bad box blood let's plot the observations that make these booklets happen.
+
+105
+
+00:06:55,860  -->  00:07:00,420
+So these are 10 observations in this case and these are 10 observations in this case.
+
+106
+
+00:07:00,600  -->  00:07:03,670
+How do we see them in terms of distributions.
+
+107
+
+00:07:03,780  -->  00:07:07,410
+And for me personally this is the part that drives this point home.
+
+108
+
+00:07:07,410  -->  00:07:08,900
+This is what makes things click.
+
+109
+
+00:07:08,910  -->  00:07:17,820
+So I'm going to put distributions here and this here you can see that this is a Arite skewed distribution
+
+110
+
+00:07:17,840  -->  00:07:17,870
+.
+
+111
+
+00:07:17,880  -->  00:07:23,460
+And by the way right skewed is because the tails on the right not we don't look at the hump.
+
+112
+
+00:07:23,460  -->  00:07:30,730
+We look at the tail where the tail is and that is how we define whether it's a right skewed or electrocuted
+
+113
+
+00:07:30,900  -->  00:07:31,070
+.
+
+114
+
+00:07:31,140  -->  00:07:38,910
+So this is a rice distribution and if you think of it in this sense what it's telling us is that if
+
+115
+
+00:07:38,910  -->  00:07:41,550
+you throw a random observation.
+
+116
+
+00:07:41,550  -->  00:07:48,630
+Another one observation onto this chart then it is more likely to end up in this area in this more dense
+
+117
+
+00:07:48,630  -->  00:07:54,240
+area than it is on in this tale part right because that's how distributions work.
+
+118
+
+00:07:54,240  -->  00:07:59,810
+There are more observations here so you've got your mean median mode in this part of the chart.
+
+119
+
+00:07:59,850  -->  00:08:03,240
+And this part of the chart so you throw a Aranda bearable here.
+
+120
+
+00:08:03,270  -->  00:08:12,030
+It is more likely to end up here and here and on this other side if you throw a random variable into
+
+121
+
+00:08:12,030  -->  00:08:18,750
+this environment into this example then what will happen is it will more likely end up on the right
+
+122
+
+00:08:18,750  -->  00:08:19,210
+side.
+
+123
+
+00:08:19,210  -->  00:08:24,560
+So this is a left skewed distribution that tells on the left but most of the observations are concentrated
+
+124
+
+00:08:24,570  -->  00:08:29,150
+over here so if you throw another round variable it will most likely end up here.
+
+125
+
+00:08:29,370  -->  00:08:37,050
+And which is good for us because the sales are higher so that is how I personally think of books plus
+
+126
+
+00:08:37,060  -->  00:08:44,970
+sometimes because you know we like distribution's we're used to them and they've got a lot of mathematics
+
+127
+
+00:08:44,970  -->  00:08:46,220
+behind them.
+
+128
+
+00:08:46,230  -->  00:08:47,940
+They got sand and things like that.
+
+129
+
+00:08:47,950  -->  00:08:52,160
+Bookstores are also also great but they're simpler things I think.
+
+130
+
+00:08:52,170  -->  00:08:57,480
+And when you think of them in terms of distributions it makes a lot of sense that why a box plot which
+
+131
+
+00:08:57,480  -->  00:09:00,760
+is which looks like this is worse.
+
+132
+
+00:09:00,780  -->  00:09:04,490
+If you want to be on the right of access then a box plot that looks like that.
+
+133
+
+00:09:04,780  -->  00:09:05,060
+OK.
+
+134
+
+00:09:05,070  -->  00:09:08,030
+So that is how box plots work.
+
+135
+
+00:09:08,070  -->  00:09:13,670
+Let's not jump back into Tablo and see what analysis we can derive from them there.
+
+136
+
+00:09:13,680  -->  00:09:14,920
+All right so there is our chart.
+
+137
+
+00:09:14,940  -->  00:09:16,700
+What can we see from this chart.
+
+138
+
+00:09:16,710  -->  00:09:19,490
+Knowing that everything we know now.
+
+139
+
+00:09:19,590  -->  00:09:21,990
+Well right away we can see outliers here and here.
+
+140
+
+00:09:21,990  -->  00:09:27,510
+So what this means is that in these three states in New South Wales Queensland and Victoria there are
+
+141
+
+00:09:27,510  -->  00:09:33,660
+companies that are underperforming in terms of the overall performance in that specific state.
+
+142
+
+00:09:33,840  -->  00:09:36,670
+Then in Queensland they are companies that are over performing.
+
+143
+
+00:09:36,810  -->  00:09:42,480
+Also if you put your mouse over the box plus you will get some information which directly relates to
+
+144
+
+00:09:42,510  -->  00:09:45,350
+the five points we discussed about box pots.
+
+145
+
+00:09:45,360  -->  00:09:50,920
+So the minimum the lower cost tell the medium the upper quartile and the maximum.
+
+146
+
+00:09:51,180  -->  00:09:57,720
+And if you use this information you can compare the box plots among each other and for instance we can
+
+147
+
+00:09:57,720  -->  00:10:01,230
+say that this box plot has the highest median which is 8 percent.
+
+148
+
+00:10:01,230  -->  00:10:08,180
+This one is also 8 percent but you can visually see that it's lower than this box part comes in a third
+
+149
+
+00:10:08,220  -->  00:10:13,680
+so the state has the third median which is 6 percent and this one has a 4 percent.
+
+150
+
+00:10:13,950  -->  00:10:21,390
+And finally let's talk about the variance and the sizes of the box plus you can see that this box plot
+
+151
+
+00:10:21,390  -->  00:10:26,640
+here and this box plot here they are pretty big compared to these two box plots.
+
+152
+
+00:10:26,640  -->  00:10:33,090
+And that means that the variance here is much greater so there is less certainty that the like a random
+
+153
+
+00:10:33,090  -->  00:10:39,500
+company thrown into this one of these states will be performing at the median net profit margin.
+
+154
+
+00:10:39,570  -->  00:10:44,880
+And bear in mind when we say random company we're not taking into account all the amazing things about
+
+155
+
+00:10:44,910  -->  00:10:50,760
+our specific company we're not taking into account the product differentiation that we can offer the
+
+156
+
+00:10:50,760  -->  00:10:55,920
+amazing customer service that we deliver and all those great things we were just saying if we throw
+
+157
+
+00:10:55,920  -->  00:11:04,180
+in a random company that performs comparable to the companies in that specific state and you know it's
+
+158
+
+00:11:04,180  -->  00:11:09,190
+work it's performing about a somewhere on average Wi-Fi on a certain level variance.
+
+159
+
+00:11:09,190  -->  00:11:10,780
+Where will it end up.
+
+160
+
+00:11:10,780  -->  00:11:18,970
+So it is likely to end up in this box but because the box is so big there is more uncertainty as to
+
+161
+
+00:11:19,180  -->  00:11:21,960
+where it will be performing in this specific state.
+
+162
+
+00:11:21,960  -->  00:11:28,020
+So basically we're kind of assessing the business environment in each of these states in Western Australia
+
+163
+
+00:11:28,030  -->  00:11:33,340
+once again there is more uncertainty where your company will end up in terms of net profit margin because
+
+164
+
+00:11:33,340  -->  00:11:36,520
+the bookstore is quite large here the box plus are smaller.
+
+165
+
+00:11:36,670  -->  00:11:42,130
+And as you remember what we just discussed which one is better let's say here would you rather have
+
+166
+
+00:11:42,130  -->  00:11:47,170
+this box here or would you have it up at the top you would rather have it up at the top because higher
+
+167
+
+00:11:47,170  -->  00:11:54,070
+profit net profit margin is better for us so this is not the best set up in this specific said could
+
+168
+
+00:11:54,070  -->  00:11:58,210
+have been better if this box had had been higher at the top would have been better.
+
+169
+
+00:11:58,240  -->  00:12:03,460
+On the other hand in Victoria you can see that the box part of the box part is at the top meaning that
+
+170
+
+00:12:03,460  -->  00:12:07,720
+the set up in this business environment is actually pretty good.
+
+171
+
+00:12:07,720  -->  00:12:12,880
+You can see that the box part is quite compact meaning that there is less uncertainty in terms of where
+
+172
+
+00:12:13,180  -->  00:12:16,340
+a random company would end up in terms of net profit margin.
+
+173
+
+00:12:16,510  -->  00:12:22,720
+And also you can see that the median of course the median is higher than these two other states but
+
+174
+
+00:12:22,720  -->  00:12:28,950
+also you can see that the box part of the box part is closer to where we want to be to the top.
+
+175
+
+00:12:29,050  -->  00:12:34,710
+And as we discussed that's a good thing as better than if this box part was lower.
+
+176
+
+00:12:34,720  -->  00:12:38,830
+So there we go that's how you analyze box plots and what can we conclude from here.
+
+177
+
+00:12:38,830  -->  00:12:45,180
+Well we can say that out of these three states you know since we already are working in or the businesses
+
+178
+
+00:12:45,180  -->  00:12:51,430
+operating in yourself wells out of these three states it's obvious that this state of Victoria is the
+
+179
+
+00:12:51,430  -->  00:12:57,400
+better one in terms of expansion in terms of a business environment and this analysis has been performed
+
+180
+
+00:12:57,910  -->  00:13:00,710
+based on competitor research.
+
+181
+
+00:13:00,700  -->  00:13:02,950
+Now that's not the end of our challenge.
+
+182
+
+00:13:02,950  -->  00:13:07,960
+We of course have to analyze the economies of these states.
+
+183
+
+00:13:07,960  -->  00:13:12,610
+We have to analyze how the industries are performing and how the populations are growing things like
+
+184
+
+00:13:12,610  -->  00:13:12,730
+that.
+
+185
+
+00:13:12,730  -->  00:13:14,650
+So we will definitely get to that.
+
+186
+
+00:13:14,650  -->  00:13:20,110
+This was like the very first stage and what we want to do now is when to use the rest of our analysis
+
+187
+
+00:13:20,110  -->  00:13:26,170
+and hopefully back this finding that the business environment seems to be best for this specific industry
+
+188
+
+00:13:26,170  -->  00:13:28,220
+at this specific time in Victoria.
+
+189
+
+00:13:28,480  -->  00:13:30,440
+And I look for the next Tauriel.
+
+190
+
+00:13:30,460  -->  00:13:32,160
+Until then happy on lising
